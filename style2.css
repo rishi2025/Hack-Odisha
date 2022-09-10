@@ -1,0 +1,410 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+.about, .services, .skills{
+    font-family: 'Poppins',sans-serif;
+}
+section .title{
+    position:relative;
+    text-align : center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Ubuntu',sans-serif;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+section .title::before{
+    content:"";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    background: black;
+    bottom:0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section .title::after{
+    position: absolute;
+    padding: 5px;
+    background: #fff;
+    bottom:-12px;
+    left: 50%;
+    color: crimson;
+    transform: translateX(-50%);
+    font-size: 20px;
+}
+.about .title::after{
+    content: "who i am";
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content, 
+.services .serve-content,
+.skills .skills-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about .about-content .left{
+    width:45%;
+}
+.about .about-content .right{
+    width: 55%;
+}
+
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text span{
+    color: crimson;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background-color: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    font-weight: 500;
+    background: none;
+}
+section{
+    padding: 100px 0;
+}
+.services .title::after{
+    content:"what i provide";
+}
+.services{
+    color: #fff;
+    background-image: url("temple.jpg");
+    background-size: cover;
+}
+
+.services .title::before{
+    background: #fff;
+}
+.services .title::after{
+    background: black;
+    content: "You Should Visit in Odisha";
+}
+.services .serve-content .card{
+    width: calc(33% - 95px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serve-content .box{
+    transition: all 0.3s ease;
+}
+.services .serve-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serve-content .card:hover{
+    background: crimson;
+}
+.services .serve-content .card:hover i{
+    color: #fff;
+}
+.services .serve-content .card i{
+    font-size: 50px;
+    color: crimson;
+}
+.services .serve-content .card text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.about, .services1, .skills{
+    font-family: 'Poppins',sans-serif;
+}
+section .title{
+    position:relative;
+    text-align : center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Ubuntu',sans-serif;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+section .title::before{
+    content:"";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    background: black;
+    bottom:0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section .title::after{
+    position: absolute;
+    padding: 5px;
+    background: #fff;
+    bottom:-12px;
+    left: 50%;
+    color: crimson;
+    transform: translateX(-50%);
+    font-size: 20px;
+}
+.about .title::after{
+    content: "who i am";
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content, 
+.services1 .serve-content,
+.skills .skills-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about .about-content .left{
+    width:45%;
+}
+.about .about-content .right{
+    width: 55%;
+}
+
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text span{
+    color: crimson;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background-color: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    font-weight: 500;
+    background: none;
+}
+section{
+    padding: 100px 0;
+}
+.services1 .title::after{
+    content:"what i provide";
+}
+.services1{
+    color: #fff;
+    background-image: url("foodbg.jpeg");
+    background-size: cover;
+}
+
+.services1 .title::before{
+    background: #fff;
+}
+.services1 .title::after{
+    background: black;
+    content: "Taste of Odisha";
+}
+.services1 .serve-content .card{
+    width: calc(33% - 95px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services1 .serve-content .box{
+    transition: all 0.3s ease;
+}
+.services1 .serve-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services1 .serve-content .card:hover{
+    background: crimson;
+}
+.services1 .serve-content .card:hover i{
+    color: #fff;
+}
+.services1 .serve-content .card i{
+    font-size: 50px;
+    color: crimson;
+}
+.services1 .serve-content .card text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.about, .services2, .skills{
+    font-family: 'Poppins',sans-serif;
+}
+section .title{
+    position:relative;
+    text-align : center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Ubuntu',sans-serif;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+section .title::before{
+    content:"";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    background: black;
+    bottom:0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section .title::after{
+    position: absolute;
+    padding: 5px;
+    background: #fff;
+    bottom:-12px;
+    left: 50%;
+    color: crimson;
+    transform: translateX(-50%);
+    font-size: 20px;
+}
+.about .title::after{
+    content: "who i am";
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content, 
+.services2 .serve-content,
+.skills .skills-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about .about-content .left{
+    width:45%;
+}
+.about .about-content .right{
+    width: 55%;
+}
+
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text span{
+    color: crimson;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background-color: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    font-weight: 500;
+    background: none;
+}
+section{
+    padding: 100px 0;
+}
+.services2 .title::after{
+    content:"what i provide";
+}
+.services2{
+    color: #fff;
+    background-image: url("dancebg.jpg");
+    background-size: cover;
+}
+
+.services2 .title::before{
+    background: #fff;
+}
+.services2 .title::after{
+    background: black;
+    content: "Colours of Odisha";
+}
+.services2 .serve-content .card{
+    width: calc(33% - 95px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services2 .serve-content .box{
+    transition: all 0.3s ease;
+}
+.services2 .serve-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services2 .serve-content .card:hover{
+    background: crimson;
+}
+.services2 .serve-content .card:hover i{
+    color: #fff;
+}
+.services2 .serve-content .card i{
+    font-size: 50px;
+    color: crimson;
+}
+.services2 .serve-content .card text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}

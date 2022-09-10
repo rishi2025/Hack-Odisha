@@ -145,7 +145,7 @@ animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
 .sidepanel a {
 padding: 8px 8px 8px 32px;
 text-decoration: none;
-font-size: 50px;
+font-size: 30px;
 color: #818181;
 display: block;
 transition: 0.3s;
