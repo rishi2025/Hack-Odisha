@@ -237,7 +237,7 @@ section{
 }
 
 .services1 .title::before{
-    background: #fff;
+    background: black;
 }
 .services1 .title::after{
     background: black;
@@ -372,7 +372,7 @@ section{
 }
 
 .services2 .title::before{
-    background: #fff;
+    background: rgb(0, 0 , 0);
 }
 .services2 .title::after{
     background: black;
